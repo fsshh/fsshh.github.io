@@ -1,0 +1,68 @@
+.all-description-section{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    background-color: black;
+    color:white;
+    padding: 0;
+    margin: 0;
+}
+.display-block{
+    display: block;
+    animation-duration: .5s;
+    animation-name: display_anim;
+    animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+@keyframes display_anim{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.display-none{
+    display: none;
+}
+.description > p > img{
+    width: 25rem;
+    box-shadow: 3px 3px 10px white;
+    margin: 0px 1rem;
+}
+.desc-1-img-1{
+    float: right;
+}
+.desc-1-img-2{
+    width: 20rem;
+    float: left;
+}
+.desc-2-img-1{
+    height: 15rem;
+    float: right;
+}
+.desc-2-img-2{
+    height: 13rem;
+    float: left;
+}
+.desc-3-img-1{
+    height: 16rem;
+    float: left;
+}
+.desc-4-img-1{
+    height: 16rem;
+    float: right;
+}
+.description >  ol{
+    margin: 0 2vw;
+    list-style:disc;
+}
+.desc-container{
+    margin: 0 10vw;
+    margin-bottom: 20vh;
+}
+.description > p{
+    text-align:justify;
+}
+
+.bottom-transition{
+    position: fixed;
+    width: 100vw;
+    height: 25vh;
+    bottom: 0;
+    background-image: linear-gradient(transparent, black);
+}

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid-customization.css">
+    <link rel="stylesheet" href="description.css">
+    <script defer src="script.js"></script>
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <!-- title -->
+    <title>test-doc</title>
+</head>
+<body>
+    <div class="all-main-content">
+        <nav class="nav-bar">
+            <div class="brand-title">My Hobby</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li class="nav-link"><a href="#">Home</a></li>
+                    <li class="nav-link"><a href="#">About me</a></li>
+                    <li class="nav-link"><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <article class="all-front-page">
+                <section class="front-page" data-index="0" data-status="current">
+                    <img src="images/philosophy.jpg" alt="">
+                    <div class="front-page-txts">
+                        <h5 class="front-page-title">Philosophy</h5>
+                        <p class="front-page-paragraph">
+                            Philosophy is a broad and complex field that encompasses a wide range of disciplines and topics, including ethics, 
+                            metaphysics, epistemology, logic, and politics, among others. At its core, philosophy is concerned with fundamental 
+                            questions about reality, existence, knowledge, values, and reason. It involves critical thinking, reflection, and the 
+                            examination of assumptions and arguments in order to arrive at well-supported conclusions.
+                            <br><br>
+                            Some of the central questions that philosophers have sought to answer throughout history include: What is the nature of reality? 
+                            What is the nature of the self? What is the nature of knowledge and how do we acquire it? What is the nature of morality 
+                            and how do we determine what is right and wrong? What is the nature of language and how do we use it to communicate and understand 
+                            the world around us?
+                            <br><br>
+                            Philosophy has had a profound impact on many aspects of human thought and culture, and it continues to be a vibrant and relevant field today.
+                        </p>
+                    </div>
+                    <div class="bottom-txts-transition"></div>
+                </section>
+                <section class="front-page" data-index="1" data-status="unknown">
+                    <img src="images/computer_engineering.jpg" alt="">
+                    <div class="front-page-txts">
+                        <h5 class="front-page-title">Computer Engineering</h5>
+                        <p class="front-page-paragraph">
+                            Computer engineering is a discipline that combines elements of electrical engineering and computer science. It involves the design 
+                            and development of computer hardware and software systems, as well as the integration of these systems with other components and devices.
+                            <br><br>
+                            Computer engineers are responsible for creating and maintaining computer systems and networks, and for designing and developing computer hardware, 
+                            software, and firmware. They work on a wide range of tasks, including developing new computer systems, improving existing systems, and designing and 
+                            testing hardware and software components.
+                            <br><br>
+                            Computer engineering professionals may work in a variety of industries, including computer hardware and software development, telecommunications, and healthcare. 
+                            They need a strong foundation in mathematics, computer science, and electrical engineering, as well as excellent problem-solving and analytical skills.
+                        </p>             
+                    </div>
+                    <div class="bottom-txts-transition"></div>
+                </section>
+                <section class="front-page" data-index="2" data-status="unknown">
+                    <img src="images/computer_science.jpg" alt="">
+                    <div class="front-page-txts">
+                        <h5 class="front-page-title">Computer Science</h5>
+                        <p class="front-page-paragraph">
+                            Computer science is a field of study that deals with the design, development, and use of computers and computer systems. 
+                            It involves the study of algorithms, data structures, computer architecture, and programming languages, as well as the theory 
+                            and application of computer systems and networks.
+                            <br><br>
+                            Computer science professionals work in a variety of industries, including software development, data analysis, cybersecurity, 
+                            and artificial intelligence. They are responsible for creating and maintaining computer systems and software applications, as well 
+                            as designing and implementing solutions to technical problems.
+                            <br><br>
+                            In addition to technical skills, computer science professionals also need strong problem-solving, communication, and analytical skills. 
+                            Many computer science professionals also have an interest in staying current with the latest trends and developments in the field, as 
+                            technology is constantly evolving.
+                        </p>
+                    </div>
+                    <div class="bottom-txts-transition"></div>
+                </section>
+                <!-- buttons -->
+                <div id="buttons-holder">
+                    <button id="left-arrow" onclick="left_Button()"><img src="right_arrow.svg" alt=""></button>
+                    <button id="right-arrow" onclick="right_Button()"><img src="right_arrow.svg" alt=""></button>
+                </div>
+            </article>
+    
+            <!-- bottom-article -->
+            
+            <!-- Philosophy -->
+           <article class="bottom-article" data-bottom_index="0" data-bottom_status="current">
+                <section class="grid-container">             
+                    <button class="grid-item grid-philo grid-philo-1">
+                        <img src="bottom_images/zeno_creator_of_stoicism.jpg" alt="">
+                        <h3>Zeno of Citium: Creator of Stoicism</h3>
+                    </button>
+                    <button class="grid-item grid-philo grid-philo-2">
+                        <img src="bottom_images/the_prince.jpg" alt="">
+                        <h3>The Prince: Niccolo Machiavelli</h3>
+                    </button>
+                    <button class="grid-item grid-philo grid-philo-3">
+                        <img src="bottom_images/the_daily_stoic.jpeg" alt="">
+                        <h3>The Daily Stoic: Ryan Holiday</h3>
+                    </button>
+                    <button class="grid-item grid-philo grid-philo-4">
+                        <img src="bottom_images/Niccolo_Machiavelli.jpg" alt="">
+                        <h3>Niccolo Machiavelli</h3>
+                    </button>
+                </section>
+            </article>
+            <!-- Computer Engineering -->
+            <article class="bottom-article" data-bottom_index="1" data-bottom_status="unknown">
+                <section class="grid-container">
+                    <button class="grid-item grid-ce grid-ce-1">
+                            <img src="/bottom_images/computer_parts.jpg" alt="">
+                            <h3>Building a working computer from scratch</h3>           
+                    </button>
+                    <button class="grid-item grid-ce grid-ce-2">
+                            <img src="/bottom_images/nas_drive.png" alt="">
+                            <h3>Building a DIY NAS Drive(Home Cloud)</h3>
+                    </button>
+                    <button class="grid-item grid-ce grid-ce-3">
+                            <img src="/bottom_images/Electronic_circuit.jpg" alt="">
+                            <h3>Electronics</h3>
+                    </button>
+                </section>
+            </article>
+            <!-- Computer Science -->
+            <article class="bottom-article" data-bottom_index="2" data-bottom_status="unknown">
+                <section class="grid-container">
+                    <button class="grid-item grid-cs grid-cs-1">
+                        <img src="/bottom_images/robotics.png" alt="">
+                        <h3>Robotics</h3>
+                    </button>
+                    <button class="grid-item grid-cs grid-cs-2">
+                        <img src="/bottom_images/operating_systems.jpeg" alt="">
+                        <h3>Building an Operating System</h3>        
+                    </button>   
+                    <button class="grid-item grid-cs grid-cs-3">
+                        <img src="/bottom_images/computer_parts.jpg" alt="">
+                        <h3>Building a working computer from scratch</h3>
+                    </button>
+                    <button class="grid-item grid-cs grid-cs-4">
+                        <img src="/bottom_images/machine_learning.jpg" alt="">
+                        <h3>Machine Learning</h3>     
+                    </button>
+                </section>
+            </article>
+        </main>
+    </div>
+    
+    <!-- description-section -->
+
+    <div class="all-description-section">
+        <article class="desc-container">
+            <!-- philosophy -->
+            <section class="description description-philo desc-zeno">
+                <h1><u>Philosophy-</u></h1>
+                <p>
+                    <img class="desc-1-img-1" src="desription-images/philosophy_img.jpg" alt="">
+                    Philosophy is a broad and complex field that encompasses a wide range of disciplines and topics, 
+                    including ethics, metaphysics, epistemology, logic, and politics, among others. At its core, philosophy 
+                    is concerned with fundamental questions about reality, existence, knowledge, values, and reason. It 
+                    involves critical thinking, reflection, and the examination of assumptions and arguments in order to arrive 
+                    at well-supported conclusions.
+                    <br><br>
+                    Some of the central questions that philosophers have sought to answer throughout history include: What is the nature of reality? 
+                    What is the nature of the self? What is the nature of knowledge and how do we acquire it? What is the nature of morality and how 
+                    do we determine what is right and wrong? What is the nature of language and how do we use it to communicate and understand 
+                    the world around us?
+                    <br><br>
+                    Philosophy has had a profound impact on many aspects of human thought and culture, and it continues to be a vibrant and relevant 
+                    field today.
+                </p>
+                <h1><u>Philosophy related topics-</u></h1>
+                
+                <h3><u>Zeno of Citium: Creator of Stoicism</u></h3>
+                
+                <h4><u>Who created stoicism?</u></h4>
+                <p>
+                    <img class="desc-1-img-2" src="bottom_images/zeno_creator_of_stoicism.jpg" alt="">
+                    Stoicism is a philosophical tradition that was founded in ancient Greece in the early 3rd century BC. It was founded by a man named Zeno of Citium, 
+                    who was born in modern-day Cyprus and moved to Athens, where he founded the Stoic school of philosophy. Stoicism is a practical philosophy that emphasizes 
+                    living in accordance with reason and virtue, and it emphasizes the importance of self-control, rationality, and acceptance of the present moment. It teaches 
+                    that the world is governed by natural laws, and that individuals have the ability to choose their own actions and attitudes.
+                    <br><br>
+                    Stoicism has remained popular throughout the centuries because it offers a practical and logical approach to dealing with difficult situations, and it encourages 
+                    people to focus on what they can control and to let go of what they cannot. It has also influenced other philosophical and psychological traditions, including 
+                    cognitive-behavioral therapy.
+                </p>
+                <h4><u>Why do people like stoicism?</u></h4>
+                <p>
+                    There are many reasons why people might be attracted to Stoicism. Some people find it appealing because it offers a clear and logical approach to dealing with difficult 
+                    situations and emotions. It emphasizes the importance of reason and self-control, and encourages individuals to focus on what they can control and to let go of what they cannot. 
+                    This can be a helpful perspective for people who are seeking to live a more balanced and fulfilling life.
+                    <br><br>
+                    Additionally, Stoicism has a strong emphasis on virtue and living in accordance with one's values. This can be appealing to people who are looking to lead a more meaningful and purposeful life.
+                    <br><br>
+                    Finally, Stoicism has had a significant influence on other philosophical and psychological traditions, including cognitive-behavioral therapy. This means that many of the ideas 
+                    and practices associated with Stoicism have been tested and found to be effective in helping people cope with difficult situations and improve their well-being. Overall, the practical 
+                    and logical approach of Stoicism, as well as its emphasis on virtue and living in accordance with one's values, make it an appealing philosophy for many people.
+                </p>
+                <h4><u>How does stoicism change our lives?</u></h4>
+                <p>
+                    Stoicism is a philosophy that emphasizes living in accordance with reason and virtue, and it encourages individuals to focus on what they can control and to let go of what they cannot. 
+                    This perspective can have a number of impacts on an individual's life.
+                    <br><br>
+                    First, it can help people to develop greater self-control and self-discipline. By focusing on what they can control, and by practicing acceptance of what they cannot control, individuals may 
+                    be better able to resist impulses and make decisions that align with their values and goals.
+                    <br><br>
+                    Second, Stoicism can help people to cultivate a more rational and logical approach to problem-solving. By focusing on what can be controlled, and by accepting what cannot be controlled, individuals 
+                    may be better able to find creative solutions to challenges and difficulties.
+                    <br><br>
+                    Third, Stoicism can help people to develop greater emotional resilience. By accepting that some things are beyond our control, individuals may be better able to cope with difficult situations and emotions, 
+                    and to bounce back from setbacks and failures.
+                    <br><br>
+                    Overall, Stoicism can help people to lead a more balanced and fulfilling life, by developing greater self-control, rationality, and emotional resilience.
+                </p>
+                <h4><u>Pros and cons to stoicism: </u></h4>
+                <p>
+                    Like any philosophical or psychological approach, Stoicism has its own set of advantages and disadvantages. Here are some pros and cons of Stoicism:
+                </p>
+                <br>
+                <h3><u>Pros:</u></h3>
+                <ol>
+                    <li>Offers a clear and logical approach to dealing with difficult situations and emotions.</li><br>
+                    <li>Emphasizes the importance of self-control and self-discipline.</li><br>
+                    <li>Encourages individuals to focus on what they can control and to let go of what they cannot.</li><br>
+                    <li>Encourages individuals to focus on what they can control and to let go of what they cannot.</li><br>
+                    <li>Provides a framework for living in accordance with one's values and virtues.</li>
+                </ol>
+                <h3><u>Cons:</u></h3>
+                <ol>
+                    <li>Some people may find the emphasis on acceptance and letting go of things beyond our control to be too passive or fatalistic</li><br>
+                    <li>May not be suitable for individuals who are struggling with severe mental health issues, such as depression or anxiety.</li><br>
+                    <li>
+                        May not be the best approach for individuals who are dealing with complex or systemic problems that require more active or collective 
+                        approaches to solving.
+                    </li><br>
+                    <li>Some people may find the emphasis on reason and logic to be too rigid or lacking in emotional depth.</li>
+                </ol>
+                <br><br>
+                <p>
+                    Overall, whether Stoicism is a helpful approach will depend on an individual's personal goals, values, and needs. It may be a useful philosophy for some people, 
+                    but it may not be the right fit for everyone.
+                </p>
+            </section>
+            <section class="description description-philo desc-Nicc_Mach">
+                <h1><u>Niccolo Machiavelli –</u></h1>
+                <p>
+                    <img class="desc-3-img-1" src="bottom_images/Niccolo_Machiavelli.jpg" alt="">
+                    Niccolò Machiavelli was an Italian Renaissance philosopher and writer who is best known for his political treatise "The Prince," which is a guide for rulers on how to maintain their power. The book, which was written in 1513, is considered one 
+                    of the first works of modern political theory and has had a significant impact on political thought and practice over the centuries.
+                    <br><br>
+                    Machiavelli was born in Florence, Italy in 1469 and was a diplomat, statesman, and political theorist. He served as a secretary to the Second Chancery of the Republic of Florence, a position that gave him the opportunity to observe and study the 
+                    political machinations of the city-state. He was also an active participant in Florentine politics, serving as a councilor and diplomat for the city.
+                    <br><br>
+                    In "The Prince," Machiavelli argued that the end justifies the means, and that it is necessary for rulers to be willing to do whatever is necessary to maintain their power, even if it means behaving in ways that are considered immoral or unethical by others. 
+                    This idea, known as "Machiavellianism," has become associated with the idea of using deceit and manipulation to achieve one's goals.
+                    <br><br>
+                    While "The Prince" is Machiavelli's most famous work, he also wrote several other books on political theory, including "The Discourses" and "The Art of War." His ideas and theories continue to be widely studied and debated by scholars and students of political science and history.
+                </p>
+                <h3><u>Niccolo Machiavelli as a philosopher –</u></h3>
+                <p>
+                    Niccolò Machiavelli is considered a philosopher because he was interested in understanding the nature of political power and how it could be exercised effectively. In his writing, he sought to explore the underlying principles that govern political behavior and to offer practical advice 
+                    to rulers on how to maintain their power and control.
+                    <br><br>
+                    Machiavelli's ideas are often considered controversial because he argued that it is sometimes necessary for rulers to act in ways that might be considered immoral or unethical in order to maintain their power. In "The Prince," he famously wrote that "it is better to be feared than loved, 
+                    if you cannot be both." This idea has often been interpreted as a justification for using deceit and manipulation to achieve one's goals.
+                    <br><br>
+                    Despite the controversy surrounding his ideas, Machiavelli's writing has had a significant influence on political thought and practice. His ideas have been studied and debated by philosophers and political scientists for centuries, and his work continues to be relevant today.
+                </p>
+            </section>
+            <section class="description description-philo desc-philo_book">
+                <h1><u>The daily stoic: Ryan Holiday - </u></h1>
+                <p>
+                    <img class="desc-2-img-1" src="bottom_images/the_daily_stoic.jpeg" alt="">
+                    The Daily Stoic is a book written by Ryan Holiday that offers daily reflections and meditations on the philosophy of Stoicism. Stoicism is a philosophy that was founded 
+                    in ancient Greece and emphasizes the importance of living in accordance with reason and virtue. The book presents Stoic teachings and ideas in a modern, practical way, and 
+                    encourages readers to apply these principles to their daily lives in order to live more fulfilling and meaningful lives. The book is divided into 365 chapters, each offering a 
+                    daily dose of Stoic wisdom and guidance. Some of the topics covered in the book include how to deal with adversity, how to cultivate inner peace and tranquility, how to cultivate 
+                    gratitude and contentment, and how to live a more purposeful and fulfilling life. Overall, The Daily Stoic is a thought-provoking and inspiring book that offers valuable insights 
+                    and guidance on how to live a happier, more fulfilling life.
+                </p>               
+                <h3><u>Ryan Holiday - </u></h3>
+                <p>
+                    <img class="desc-2-img-2" src="desription-images/RyanHoliday.jpg" alt="">
+                    Ryan Holiday is an American author and media strategist. He is the author of several books, including "The Obstacle Is the Way," "Ego Is the Enemy," and "Stillness Is the Key." 
+                    Holiday has written for Forbes, Fast Company, and other publications, and he has worked as a marketing strategist for companies such as Google, TASER, and Complex. He is also the founder 
+                    of the media company Brass Check and the author of "Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising." Holiday is known for his writing on topics such as personal 
+                    development, strategy, and stoicism, and his work has been translated into more than 30 languages.
+                </p>
+                <h3><u>How does the book "The daily stoic by Ryan Holiday" affect our day-to-day lives: </u></h3>
+                <p>
+                    The Daily Stoic by Ryan Holiday aims to help readers cultivate a Stoic mindset, which is a way of thinking and living that emphasizes the importance of living in accordance with reason and virtue. 
+                    By following the teachings and ideas presented in the book, readers may be able to develop a greater sense of inner peace and tranquility, and be better equipped to handle adversity and difficult circumstances. 
+                    The book also encourages readers to cultivate gratitude and contentment, and to live a more purposeful and fulfilling life
+                    <br><br>
+                    By applying the principles of Stoicism to their daily lives, readers may be able to develop a greater sense of resilience and mental strength, and be better able to navigate the challenges and difficulties that life presents. 
+                    The book can also help readers to cultivate a more positive and mindful outlook on life, and to find meaning and purpose in their daily activities. Overall, The Daily Stoic can have a positive impact on readers by helping them 
+                    to live a happier, more fulfilling life.
+                </p>
+                <h3><u>Why is "The daily stoic by Ryan Holiday" popular among many stoic books: </u></h3>
+                <p>
+                    There are a few reasons why The Daily Stoic by Ryan Holiday has become popular among many other books on Stoicism. One reason is that the book presents Stoic teachings and ideas in a modern, practical way that is accessible and easy 
+                    to understand for a wide audience. The book is also structured as a daily devotional, with each chapter offering a short meditation or reflection on a specific Stoic principle. This format makes it easy for readers to incorporate Stoic 
+                    teachings into their daily lives, and to gradually develop a Stoic mindset over time.
+                    <br><br>
+                    Another reason for the book's popularity is that it offers a wide range of insights and guidance on how to apply Stoic principles to various aspects of life, including dealing with adversity, cultivating inner peace and tranquility, and 
+                    living a more purposeful and fulfilling life. The book also includes quotes and excerpts from various Stoic philosophers, which can provide readers with a deeper understanding of Stoicism and its teachings.
+                    <br><br>
+                    Overall, The Daily Stoic has become popular among many other books on Stoicism because it offers a practical and accessible introduction to Stoicism that is suitable for a wide audience, and because it provides a wealth of insights and guidance 
+                    on how to apply Stoic principles to daily life.
+                </p>
+            </section>
+            <section class="description description-philo desc-the_prince">
+                <h1><u>The prince: Niccolò Machiavelli –</u></h1>
+                <p>
+                    <img class="desc-4-img-1" src="bottom_images/the_prince.jpg" alt="">
+                    "The Prince" is a political treatise written by Niccolo Machiavelli in the 16th century. It is a manual for rulers on how to maintain and increase their power. In the book, Machiavelli advises rulers to be willing to use whatever means necessary, including deceit and violence, to achieve their goals. 
+                    He argues that it is better for a ruler to be feared than loved, and that the ends justify the means.
+                    <br><br>
+                    The book was highly controversial when it was first published, and it remains a subject of debate and criticism today. Some people believe that it is a cynical and ruthless guide to power, while others argue that it is a realistic portrayal of the harsh realities of politics. Regardless of one's interpretation 
+                    of the book, it is an important work that has had a significant influence on political thought and strategy.
+                </p>
+                <h3><u>Why does people hate this type of ruling –</u></h3>
+                <p>
+                    There are many reasons why some people might object to the type of ruling advocated for in "The Prince." One reason is that it advocates for the use of deceit and violence as necessary means for achieving and maintaining power. This goes against the principle of honesty and non-violence that many people hold dear. 
+                    Additionally, the idea that it is better for a ruler to be feared than loved goes against the idea of rulers being legitimate and fair leaders who are accountable to their subjects.
+                    <br><br>
+                    Another reason some people might object to this type of ruling is that it prioritizes the interests of the ruler over the well-being of the people being ruled. Machiavelli advises rulers to be willing to make sacrifices and take actions that may be unpopular or even harmful to the people, as long as they serve the interests of the ruler. 
+                    This goes against the idea of rulers acting in the best interests of the people and being accountable to them.
+                    <br><br>    
+                    Overall, the type of ruling advocated for in "The Prince" may be seen as unethical and potentially harmful to society. It is important for rulers to consider the well-being and rights of the people they are governing, and to act with honesty and integrity.                
+                </p>
+                <h3><u>Leaders who are considered "Machiavellian" –</u></h3>
+                <p>
+                    The term "Machiavellian" is often used to describe leaders or politicians who are perceived as being cunning, manipulative, and willing to do whatever it takes to achieve their goals, even if it means acting unethically or going against the interests of the people they are supposed to serve.
+                    <br><br>
+                    Some historical figures who have been described as Machiavellian include:
+                </p>
+                <ol>
+                    <li>Niccolo Machiavelli himself, the Italian philosopher and writer who wrote "The Prince," the political treatise that gives rise to the term "Machiavellian."</ul><br>
+                    <li>Julius Caesar, the Roman general and statesman who was known for his ambition and willingness to use whatever means necessary to achieve his goals.</li><br>
+                    <li>Henry VIII, the King of England who is known for his numerous marriages and his willingness to break with the Catholic Church in order to secure a divorce.</li><br>
+                    <li>Napoleon Bonaparte, the French military and political leader who rose to power during the French Revolution and went on to conquer much of Europe.</li>
+                </ol><br>
+                <p>It is important to note that the term "Machiavellian" is often used pejoratively to describe leaders who are seen as manipulative or ruthless. It is not necessarily an accurate or fair portrayal of these leaders or their actions.</p>
+                <h3><u>Pros and Cons of being a "Machiavellian": </u></h3><br>
+                <h3><u>Pros:</u></h3><br>
+                <ol>
+                    <li>It may be effective at achieving short-term goals or maintaining power. By being willing to use whatever means necessary, including deception and violence, a ruler may be able to accomplish their objectives and maintain their hold on power.</li><br>
+                    <li>It may be necessary in certain situations. In times of crisis or instability, it may be necessary for a leader to take decisive and potentially unpopular actions in order to restore order and stability.</li>
+                </ol>
+                <h3><u>Cons:</u></h3>
+                <br>
+                <ol>
+                    <li>It may be unethical and go against the principles of honesty and non-violence. The use of deceit and violence as means to achieve power or maintain control may be seen as morally wrong by many people.</li><br>
+                    <li>It may be harmful to the people being ruled. By prioritizing the interests of the ruler over the well-being of the people, this type of ruling may lead to policies and actions that are detrimental to the welfare of the population.</li><br>
+                    <li>It may be unsustainable in the long term. A ruler who is feared rather than loved may struggle to maintain the loyalty and support of their subjects over time, leading to potential challenges to their power.</li><br>
+                    <li>It may undermine the legitimacy of the ruler. A ruler who is seen as deceitful or ruthless may struggle to gain the trust and respect of the people, which is essential for a leader to be effective.</li><br>
+                </ol>
+                <br>
+                <p>Overall, the type of ruling advocated for in "The Prince" may have some short-term benefits, but it is likely to be controversial and potentially harmful in the long term. It is important for rulers to consider the well-being and rights of the people they are governing, and to act with honesty and integrity.</p>
+            </section>
+            <!-- computer science -->
+            <section class="description description-cs desc-robotics">
+                <h1><u>Robotics</u></h1>
+                <p>
+                    Robotics is the branch of engineering that deals with the design, construction, operation, and application of robots. Robots are machines that can be programmed to perform a variety of tasks, including manufacturing, assembly, transport, 
+                    inspection, and many others. They can be used in a wide range of settings, including factories, hospitals, and even in homes. The field of robotics is interdisciplinary, involving areas such as computer science, mechanical engineering, 
+                    electrical engineering, and more.
+                </p>
+                <h3><u>What do you need to study in robotics</u></h3>
+                <p>There are many different areas that you can study within the field of robotics, depending on your interests and career goals. Some common areas of study include:</p><br>
+                <ol>
+                    <li>Mechanical engineering: This involves designing and building the physical components of robots, such as their bodies, arms, and sensors.</li><br>
+                    <li>Electrical engineering: This involves designing and building the electronic systems that power and control robots, such as their motors, sensors, and microcontrollers.</li><br>
+                    <li>Computer science: This involves programming and software development for robots, including the development of algorithms and control systems.</li><br>
+                    <li>Artificial intelligence: This involves developing the cognitive abilities of robots, such as the ability to learn, make decisions, and interact with their environment.</li><br>
+                    <li>
+                        Human-robot interaction: This involves studying how robots can effectively communicate and interact with humans, and designing interfaces and systems that facilitate this interaction.
+                        Other areas of study within robotics may include materials science, physics, and mathematics, as well as specialized areas such as bio-inspired robotics or space robotics.
+                    </li>
+                </ol>    
+                <h3><u>How does robotics helps our society?</u></h3>
+                <p>Robotics has the potential to help society in many ways. Some of the ways in which robotics can benefit society include:</p>
+                <ol>
+                    <li>
+                        Increasing efficiency and productivity: Robots can work faster and more accurately than humans, and can perform tasks that are repetitive, dangerous, or dirty. This can lead to increased efficiency and productivity in 
+                        manufacturing and other industries.
+                    </li><br>
+                    <li>Reducing costs: By automating certain tasks, robots can help reduce labor costs and other expenses.</li><br>
+                    <li>Improving quality: Robots can perform tasks with a high level of precision and repeatability, which can lead to improved product quality.</li><br>
+                    <li>Enhancing safety: Robots can perform tasks that are hazardous to humans, such as working in dangerous environments or handling toxic materials.</li><br>
+                    <li>Providing assistance and care: Robots can assist with tasks such as lifting, moving, and providing companionship for people who are elderly, disabled, or otherwise in need of assistance.</li><br>
+                    <li>Expanding capabilities: Robots can perform tasks that are beyond the physical capabilities of humans, such as exploring other planets or working in extreme environments.</li>
+                </ol><br>
+                <p>By addressing these and other challenges, robotics can contribute to the overall well-being of society.</p>
+                <h3><u>Is studying robotics still worth it today?</u></h3>
+                <p>
+                    Yes, studying robotics can be a rewarding and valuable pursuit, both personally and professionally. The field of robotics is growing and evolving rapidly, and there is increasing demand for professionals with expertise in robotics.
+                    <br><br>
+                    Robotics combines a wide range of disciplines, including mechanical engineering, electrical engineering, computer science, and more, so studying robotics can provide a strong foundation for a variety of careers. Additionally, the 
+                    skills and knowledge gained through a robotics education can be applied in a wide range of industries, including manufacturing, healthcare, transportation, and many others.
+                    <br><br>
+                    There are also many exciting research and development opportunities within robotics, as the field continues to advance and push the boundaries of what is possible. Overall, studying robotics can be a fulfilling and rewarding 
+                    experience that can lead to a variety of exciting career opportunities.
+                </p>
+                <h3><u>What are personal projects you could do alone in robotics.</u></h3>
+                <p>There are many personal projects that you can do alone in robotics, depending on your interests, skills, and resources. Here are a few ideas:</p>
+                <ol>
+                    <li>
+                        Build a simple robot: You can use off-the-shelf components or build your own to create a basic robot that can move, sense its environment, and perform simple tasks. For example, you could build a line-following robot, a robot 
+                        that avoids obstacles, or a robot that can move objects from one place to another.
+                    </li><br>
+                    <li>Develop a robot control system: You can use a microcontroller or computer to design and build a control system for a robot. This could involve programming the robot to follow a set of commands, or developing algorithms 
+                        for the robot to perform tasks such as navigating a maze or playing a game.
+                    </li><br>
+                    <li>Create a robot with artificial intelligence: You can use machine learning techniques to give a robot the ability to learn and adapt to its environment. For example, you could develop a robot that can learn to recognize objects, or a robot that can learn to play a game.</li><br>
+                    <li>Design a robot for a specific task: You can create a robot that is optimized to perform a specific task, such as sorting objects, inspecting products, or assisting with healthcare. This could involve designing custom hardware and software for the robot.</li>
+                </ol><br>
+                <p>These are just a few examples, and there are many other possibilities for personal robotics projects. The key is to choose a project that aligns with your interests and skills, and to work steadily to complete it.</p>
+            </section>
+            <section class="description description-cs desc-OS">
+                <h1><u>Creating an Operating system</u></h1>
+                <h3><u>Operating system-</u></h3>
+                <p>
+                    An operating system (OS) is a collection of software that manages computer hardware resources and provides common services for computer programs. The operating system is the most important type of system software in a computer system. Users interact with the operating system 
+                    through a user interface such as a command line or a graphical user interface (GUI). Some examples of popular operating systems are Microsoft Windows, macOS, and Linux.
+                </p>
+                <h3><u>Is it possible to create a simple operating system alone?</u></h3>
+                <p>
+                    It is possible to create a simple operating system on your own, but it is a very complex and time-consuming task. An operating system has many components, such as a bootloader, a kernel, device drivers, and system libraries, and each of these components must be carefully designed and implemented. 
+                    Additionally, operating systems must be designed to be efficient, reliable, and secure, which requires a thorough understanding of computer science and systems programming. If you are interested in creating your own operating system, it would be helpful to have a strong background in these areas 
+                    and to be familiar with the design and implementation of operating systems. It would also be helpful to have access to resources such as textbooks, online tutorials, and communities of other individuals who are interested in operating system development.
+                </p>
+                <h3><u>What do you need to learn to create an operating system.</u></h3>
+                <p>To create an operating system, you would need to learn a wide range of concepts and technologies. Some of the things you would need to learn include:</p>
+                <ol>
+                    <li>Low-level programming languages such as C and Assembly. These languages are used to write the kernel and other parts of the operating system that need to interact closely with the hardware.</li><br>
+                    <li>Operating system design and implementation. This includes understanding concepts such as processes, threads, memory management, and file systems.</li><br>
+                    <li>Computer architecture and computer organization. This includes understanding how computer hardware works and how the operating system interacts with the hardware.</li><br>
+                    <li>Systems programming. This includes learning how to write code that is efficient, reliable, and able to handle resource constraints.</li><br>
+                    <li>Computer security. This includes learning about security vulnerabilities and how to design and implement secure systems.</li><br>
+                    <li>Algorithms and data structures. These are used to design efficient implementations of various parts of the operating system.</li>
+                </ol><br>
+                <p>In addition to these technical skills, you would also need strong problem-solving and debugging skills to be able to design and troubleshoot an operating system.</p>
+                <h3><u>Is it worth it to create an operating system on your own.</u></h3>
+                <p> 
+                    Creating an operating system on your own can be a challenging and time-consuming task, but it can also be a very rewarding and educational experience. If you have a strong interest in operating systems and are willing to put in the time and effort to learn the necessary concepts and technologies, it could 
+                    be worth it to create an operating system on your own.
+                    <br><br>
+                    However, it's important to note that creating an operating system is a complex task that requires a thorough understanding of computer science and systems programming. If you are just starting out and are unfamiliar with these concepts, it might be more realistic to start with smaller programming projects 
+                    and build up your skills before attempting to create an operating system.
+                    <br><br>
+                    Additionally, there are many existing operating systems that are available for use, such as Microsoft Windows, macOS, and Linux, so you may find it more practical to use one of these rather than creating your own.
+                </p>
+            </section>
+            <section class="description description-cs desc-computer_DIY">
+                <h1><u>Creating a computer from scratch</u></h1>
+                <h3><u>Is it possible to create a Computer from scratch-</u></h3>
+                <p>
+                    Yes, it is possible to create a computer from scratch using basic electronic components and a circuit board. You would need to have a good understanding of electronics and computer science to do this, and it would be a significant undertaking. However, it is also possible to purchase pre-made components and 
+                    assemble them to create a computer. This is a more common approach and can be done by someone with less specialized knowledge, although it would still require a certain level of technical expertise.
+                </p>
+                <h3><u>What do you need to learn to make a working computer from scratch-</u></h3>
+                <p>
+                    To create a computer from scratch, you would need to have a strong understanding of electronics and computer science. This would include knowledge of circuit design, microcontrollers, and programming. You would also need to be familiar with the hardware components that make up a computer, such as 
+                    processors, memory, and input/output devices. In addition, you would need to understand how these components work together and be able to design and build a circuit board to connect them.
+                    <br><br>
+                    Here are some specific skills that would be useful in building a computer from scratch:
+                </p>
+                <ol>
+                    <li>Circuit design: This includes understanding how to design and layout a circuit board, as well as how to select and place components on the board.</li><br>
+                    <li>Microcontroller programming: A microcontroller is a small computer that can be programmed to perform a specific task. You would need to understand how to program a microcontroller to control the various components of your computer.</li><br>
+                    <li>Computer architecture: This involves understanding how a computer is structured and how it processes instructions. You would need to understand concepts such as memory hierarchy, instruction sets, and interrupts.</li><br>
+                    <li>Operating systems: An operating system is the software that manages the hardware resources of a computer and allows other programs to run. You would need to understand how to design and implement an operating system for your computer.</li>
+                </ol><br>
+                <p>This is just a small sample of the knowledge that would be required to build a computer from scratch. As you can see, it is a complex task that requires a strong foundation in both electronics and computer science.</p>
+            </section>
+            <section class="description description-cs desc-machine_learning">
+                <h1><u>Machine Learning</u></h1>
+                <p>
+                    Machine learning is a type of artificial intelligence that allows software applications to become more accurate in predicting outcomes without being explicitly programmed. Machine learning algorithms are trained on a data set and make predictions or take actions based on that training. The more data the 
+                    algorithm is trained on, the more accurate it becomes. There are many different types of machine learning, including supervised learning, unsupervised learning, and reinforcement learning.
+                </p>
+                <h3><u>What personal projects you can do using machine learning?</u></h3>
+                <p>There are many personal projects that you can do using machine learning, depending on your interests and skills. Some ideas might include:</p>
+                <ol>
+                    <li>Building a recommendation system: You could build a system that suggests movies or books to users based on their past ratings or purchases.</li><br>
+                    <li>Predicting stock prices: You could build a model that predicts the future price of a stock based on historical data.</li><br>
+                    <li>Image or video classification: You could build a model that can classify images or videos into different categories (e.g. animals, vehicles, landscapes).</li><br>
+                    <li>Language translation: You could build a machine translation system that translates text from one language to another.</li><br>
+                    <li>Sentiment analysis: You could build a model that can classify text as positive, negative, or neutral.</li><br>
+                    <li>Fraud detection: You could build a model that can detect fraudulent credit card transactions or other types of fraudulent activity.</li>
+                </ol><br>
+                <h3><u>Is it worth to learn machine learning?</u></h3>
+                <p>
+                    Yes, it is definitely worth learning machine learning, especially if you are interested in a career in technology or data science. Machine learning is a rapidly growing field and there is a high demand for professionals with machine learning skills. According to a report by Glassdoor, the median salary for a 
+                    machine learning engineer is $120,000 per year, and the demand for these professionals is expected to continue to grow in the coming years. In addition to the financial benefits, learning machine learning can also be personally rewarding as it allows you to build and work on interesting and impactful projects.
+                </p>
+            </section>
+            <!-- Computer Engineering -->
+            <section class="description description-ce desc-computer_DIY_ce">
+                <h1><u>Creating a computer from scratch</u></h1>
+                <h3><u>Is it possible to create a Computer from scratch-</u></h3>
+                <p>
+                    Yes, it is possible to create a computer from scratch using basic electronic components and a circuit board. You would need to have a good understanding of electronics and computer science to do this, and it would be a significant undertaking. However, it is also possible to purchase pre-made components and 
+                    assemble them to create a computer. This is a more common approach and can be done by someone with less specialized knowledge, although it would still require a certain level of technical expertise.
+                </p>
+                <h3><u>What do you need to learn to make a working computer from scratch-</u></h3>
+                <p>
+                    To create a computer from scratch, you would need to have a strong understanding of electronics and computer science. This would include knowledge of circuit design, microcontrollers, and programming. You would also need to be familiar with the hardware components that make up a computer, such as 
+                    processors, memory, and input/output devices. In addition, you would need to understand how these components work together and be able to design and build a circuit board to connect them.
+                    <br><br>
+                    Here are some specific skills that would be useful in building a computer from scratch:
+                </p>
+                <ol>
+                    <li>Circuit design: This includes understanding how to design and layout a circuit board, as well as how to select and place components on the board.</li><br>
+                    <li>Microcontroller programming: A microcontroller is a small computer that can be programmed to perform a specific task. You would need to understand how to program a microcontroller to control the various components of your computer.</li><br>
+                    <li>Computer architecture: This involves understanding how a computer is structured and how it processes instructions. You would need to understand concepts such as memory hierarchy, instruction sets, and interrupts.</li><br>
+                    <li>Operating systems: An operating system is the software that manages the hardware resources of a computer and allows other programs to run. You would need to understand how to design and implement an operating system for your computer.</li>
+                </ol><br>
+                <p>This is just a small sample of the knowledge that would be required to build a computer from scratch. As you can see, it is a complex task that requires a strong foundation in both electronics and computer science.</p>
+            </section>
+            <section class="description description-ce desc-NAS_drive">
+                <h1><u>Building a NAS Drive(Home Cloud)</u></h1>
+                <p>
+                    A NAS (Network Attached Storage) drive is a type of device that connects to a network and provides storage space that can be accessed by multiple devices on that network. NAS drives are often used in homes and small businesses as a centralized location to store and access data, 
+                    such as documents, photos, and videos. They are typically connected to a router or network switch using an Ethernet cable, and can be accessed over the network using a variety of protocols, such as SMB (Server Message Block) or NFS (Network File System). NAS drives can also provide 
+                    additional features, such as the ability to stream media to other devices, or to perform automatic backups of devices on the network.
+                </p>
+                <h3><u>Can you make a NAS Drive at home by yourself?</u></h3>
+                <p>Yes, it is possible to build your own NAS (Network Attached Storage) drive at home. To do this, you will need to:</p>
+                <ol>
+                    <li>Choose a device to use as the NAS drive. This can be an old computer or a dedicated NAS device such as a Raspberry Pi.</li><br>
+                    <li>Install an operating system that is designed for use on a NAS drive. Some options include FreeNAS, OpenMediaVault, and NAS4Free.</li><br>
+                    <li>Connect the device to your home network using an Ethernet cable.</li><br>
+                    <li>Configure the device to share its storage space over the network. This will typically involve setting up user accounts and permissions, and choosing which folders to share.</li><br>
+                    <li>Connect other devices on your network to the NAS drive to access the shared storage space.</li>
+                </ol><br>
+                <p>Building your own NAS drive can be a fun and rewarding project, but it does require some technical skills and a basic understanding of networking concepts. If you are not comfortable with these things, you may want to consider purchasing a pre-built NAS drive instead.</p>
+                <h3><u>What can you learn by making a NAS Drive?</u></h3>
+                <p>By building your own NAS (Network Attached Storage) drive, you can learn a variety of technical skills, including:</p>
+                <ol>
+                    <li>Setting up and configuring a device as a NAS drive, including installing an operating system and configuring network settings.</li><br>
+                    <li>Sharing storage space over a network and setting up user accounts and permissions.</li><br>
+                    <li>Managing and maintaining a network-attached storage device, including tasks such as adding or removing hard drives, performing backups, and monitoring system performance.</li><br>
+                    <li>Basic networking concepts, such as how to connect devices to a network using Ethernet cables and how to access shared storage using protocols such as SMB (Server Message Block) or NFS (Network File System).</li>
+                </ol><br>
+                <p>
+                    Building your own NAS drive can also be a good opportunity to learn about different types of storage technologies and how they are used in practice. For example, you may learn about different types of hard drives and how they compare in terms of performance, capacity, 
+                    and reliability. You may also learn about RAID (Redundant Array of Independent Disks), which is a way of combining multiple hard drives to improve performance or provide data protection.</p>
+            </section>
+            <section class="description description-ce desc-Electronics">
+                <h1><u>Electronics</u></h1>
+                <p>
+                    Electronics is the branch of physics, engineering, and technology that deals with the design, development, and use of electronic devices and systems. It involves the study and application of electrical and electronic circuits, devices, and systems for the processing, 
+                    transmission, and storage of information. Some common applications of electronics include computers, telecommunication systems, medical equipment, and control systems. 
+                </p>
+                <h3><u>What are personal projects that you can do alone involving electronics?</u></h3>
+                <p>Here are a few ideas for personal projects you can do involving electronics:</p>
+                <ol>
+                    <li>Build an LED display: This project involves building a matrix of LEDs that can be used to display text or patterns.</li><br>
+                    <li>Make a simple alarm circuit: This project involves using a microcontroller and a few other components to build a simple alarm circuit that can be triggered by a motion sensor.</li><br>
+                    <li>Design a simple robot: This project involves building a simple robot using motors, a microcontroller, and other electronic components.</li><br>
+                    <li>Build a weather station: This project involves using sensors to measure temperature, humidity, and other weather conditions, and using a microcontroller to process and display the data.</li><br>
+                    <li>Make a digital clock: This project involves building a clock using a microcontroller and a display screen.</li><br>
+                    <li>Build a simple video game console: This project involves building a console that can play simple video games using a microcontroller and a display screen.</li>
+                </ol><br>
+                <h3><u>Is studying electronics worth it?</u></h3>
+                <p>
+                    Yes, studying electronics can be a very rewarding field of study. Electronics is a rapidly evolving field that plays a central role in many areas of modern life, including communications, computing, and control systems. A solid foundation in electronics can lead to a wide range of 
+                    exciting career opportunities, including jobs in research and development, manufacturing, and product design.
+                    <br><br>
+                    In addition to the practical benefits, studying electronics can also be intellectually stimulating and fulfilling. It involves a broad range of topics, including physics, mathematics, and computer science, and requires problem-solving skills and a hands-on approach to design 
+                    and experimentation.
+                    <br><br>
+                    Overall, if you have an interest in electronics and enjoy working with your hands and solving problems, then it could be a very rewarding field of study for you.
+                </p>
+            </section>
+        </article>
+        <div class="bottom-transition"></div>
+        <button id="home_icon_bttn"><img id="home_icon" src="images/home_icon.png" alt="home_icon"></button>
+    </div>
+</body>
+</html>
